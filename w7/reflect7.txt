@@ -1,0 +1,50 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                             Workshop - #7
+Full Name  : Hla Myint Myat 
+Student ID#: 185923216
+Email      : hmyat1@myseneca.ca
+Section   : NRB
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. That part was the most complicated part in this workshop. Finally, I made it by using a series of conditions, loops, structs and arrays to successfully complete this part. That was challenging for me because I didn’t understand the logic properly at first and I couldn’t be able to set the locations of bombs and treasures.  So, I used a series of if else condition statements. By adding the conditions, I was successful in coding non-repetitive section of logic in the game play portion of this workshop. 
+
+2. By using structure, we can combine a series of variables under one structure, and we don’t need to define so many variables and this made the code clearer and easy to use which is very useful for this workshop. In this workshop, I used two structs for player info and game info. Those are-
+
+                     struct PlayerInfo{
+                     int lives;
+                     char symbol;
+                     int treasures;
+                     int history[MAX_PATH_LENGTH];
+                     };
+
+              struct GameInfo{
+                     int moves;
+                     int path_length;
+                     int bombs_arr[MAX_PATH_LENGTH];
+                     int treasures_arr[MAX_PATH_LENGTH];
+                };
+                              
+ 3.  The maximum number of levels of nesting is four. According to my code- 
+                       
+
+                                      do{
+
+                                            if(next_move != 0){
+
+                                           	for(int i = 1 ; i <= 20 ; i++){
+
+                                          	 	if(next_move == i){
+
+                                          		 }else{
+
+                                           		}
+                                               	 }
+                                              }
+                                         }

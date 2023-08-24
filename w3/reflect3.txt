@@ -1,0 +1,15 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : Hla Myint Myat
+Student ID#: 185923216
+Email      : hmyat1@myseneca.ca
+Section    : NRB
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. printf(" 1 |   %d   |   %d    |   %d   | %4d | %6.3lf |   %d   |\n", coffee_type_1 == 'l' || coffee_type_1 == 'L' , coffee_type_1 == 'm'|| coffee_type_1 == 'M' , coffee_type_1 == 'r' || coffee_type_1 =='R' , bag_weight_1 , bag_weight_1/GRAMS_IN_LBS , best_cream_1 =='y' || best_cream_1 == 'Y');printf(" 2 |   %d   |   %d    |   %d   | %4d | %6.3lf |   %d   |\n", coffee_type_2 == 'l' || coffee_type_2 == 'L' , coffee_type_2 == 'm'|| coffee_type_2 == 'M' , coffee_type_2 == 'r' || coffee_type_2 =='R' , bag_weight_2 , bag_weight_2/GRAMS_IN_LBS , best_cream_2 =='y' || best_cream_2 == 'Y');printf(" 1 |   %d   |   %d    |   %d   | %4d | %6.3lf |   %d   |\n", coffee_type_3 == 'l' || coffee_type_3 == 'L' , coffee_type_3 == 'm'|| coffee_type_3 == 'M' , coffee_type_3 == 'r' || coffee_type_3 =='R' , bag_weight_3 , bag_weight_3/GRAMS_IN_LBS , best_cream_3 =='y' || best_cream_3 == 'Y');A) In this part of the logic, I used one relational expression which is == (means operands are equal) to compare the two values to consider if they are true or false. B) In this part, I used only one type of logical expression, which is || (or expression which means one of the operands should be true).2. We can write the logic in 2 ways, using DeMorgan’s law and without using DeMorgan’s law.Here are the examples for both of the logic-Without using DeMorgan’s Law,printf("9. Based on product ID, product 3 is unique -> %d\n\n", p3_ID != p1_ID && p3_ID != p2_ID);Using DeMorgan’s Law,printf("9. Based on product ID, product 3 is unique -> %d\n\n", !(p3_ID == p1_ID || p3_ID == p2_ID));In part 1, I used the first logic which is without DeMorgan’s Law. 3. In part 2, I used the following variables-const double GRAMS_IN_LBS = 453.5924;char coffee_type_1, coffee_type_2, coffee_type_3 ; int bag_weight_1, bag_weight_2, bag_weight_3;char best_cream_1, best_cream_2, best_cream_3;char coffee_strength_1;char cream_1;int daily_servings_1;char coffee_strength_2;char cream_2;int daily_servings_2;Here are the variables I used in part 2. My variables are a bit long, but it’s well organized with the same name so that I can recall those again, when I look back. There is another way that  I can also comment out and use the short form while naming the variables, but I find it a bit easier to use longer variable than commenting for this workshop because we have to use a little bit complex logical expressions.   

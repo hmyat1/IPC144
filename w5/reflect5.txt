@@ -1,0 +1,17 @@
+///////////////////////////////////////////////////////////////////////////
+
+                              Reflection
+                             Workshop - #5
+Full Name  : Hla Myint Myat
+Student ID#: 185923216
+Email      : hmyat1@myseneca.ca
+Section    : NRB
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. We use variables and macros to represent information rather than hardcode to modify the codes easily if some changes are made, we don’t need to rewrite the whole code, we just have to change specific place. Secondly, it is easier for human beings to understand the code.Three advantages are- 1. Variables can store different values for different time.2. We can test our program with any kind of data to calculate the sum and average.3. It also avoids errors while modifying the codes.In my workshop, I have three macros defined above the main function. Since the macros have the constant value and don't need to change though the program, we can use this macro for validation and iteration.2. The first reason is for calculating the sum and average, we need to get all the valid data first. After            getting all the valid data and store them to a specific variable throughout the loop, we can calculate the sum and average to get the correct answers.The second reason is we cannot calculate the average while getting the valid inputs for each iteration.In my code, I use for loop to iterate the days and inside that, I use do while loop to get the valid morning and evening rating for each iteration, and then store to a specific variables for the days. After all these steps, I calculate the sum and average!
